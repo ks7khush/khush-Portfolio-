@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      animation: bouncing 0.5s ease 0s infinite alternate both;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 300;
+      padding: 1em 2em 1.1em;
+      position: relative;
+      vertical-align: middle;
+      text-align: center; 
+      color: aquamarine;
+    }
+
+    @keyframes bouncing {
+      0% {
+        bottom: 0%;
+        box-shadow: 0 0 5px rebeccapurple;
+      }
+
+      100% {
+        bottom: 50px;
+        box-shadow: 0 50px 50px blue;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1 align="center"> CONTACT US </h1><br>
+    <img src="logo.png" alt="" class="background"><br>
+    <p align="center">
+      DIAL THIS NUMBER FOR ANY QUERY <br>
+      83066xxxxx
+    </p>
+  </div>
+
+</body>
+
+</html>
